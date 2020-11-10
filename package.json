@@ -4,7 +4,8 @@
   "description": "Backend for MicroBlog exercise",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,6 @@
     "locus": "^2.0.4",
     "morgan": "^1.10.0",
     "pg": "^8.4.2"
-  }
+  },
+  "devDependencies": {}
 }
